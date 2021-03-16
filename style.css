@@ -25,14 +25,10 @@ header nav a {
     color: #fff;
 }
 header nav .logo {
-    width: 152px;
-    height: 30px;
-    margin-right: 50px;
 }
 header nav .mainmenu {
     display: flex;
-    border: 1px solid purple;
-    width: 600px;
+    width: 500px;
 }
 header nav .mainmenu li a{
     display: block;
@@ -40,4 +36,18 @@ header nav .mainmenu li a{
 }
 header nav .submenu {
     display: flex;
+}
+header nav .submenu li {
+    margin-right: 10px;
+}
+header nav .submenu li:last-child {
+    margin-right: 0;
+}
+header nav .submenu li a {
+    display: block;
+    padding: 10px;
+}
+header nav .submenu li .pick {
+    background-color: #c6610F;
+    border-radius: 10px;
 }
