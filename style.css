@@ -94,3 +94,11 @@ header nav .submenu li .pick {
     width: 550px;
     height: 350px;
 }
+.section1 {
+    width: 100%;
+    float: left;
+    background-image: url(images/about-bg.png);
+    height: 700px;
+    background-size: 100%;
+    padding: 140px 0;
+}
