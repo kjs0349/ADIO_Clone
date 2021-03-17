@@ -12,6 +12,7 @@ header {
     padding: 0 20px;
     background-position: top;
     background-size: 100%;  
+    background-repeat: no-repeat;
 }
 .inner {
     width: 75%;
@@ -101,4 +102,48 @@ header nav .submenu li .pick {
     height: 700px;
     background-size: 100%;
     padding: 140px 0;
+    background-repeat: no-repeat;
+
+}
+.section1-contant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 140px;
+}
+.section1-contant img {
+    max-width: 100%;
+    height: 320px;
+    display: block;
+}
+.section1-contant .contants {
+    display: flex;
+    flex-direction: column;
+    height: 351px;
+}
+.section1-contant .contants .title {
+    border-bottom: 1px solid #000;
+    width: 230px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+.section1-contant .contants .title span:nth-child(2) {
+    color: #c6610F;
+}
+.section1-contant .contants .contant {
+    margin: 20px 20px 20px 0;
+    padding-top: 30px;
+}
+.section1-contant .contants .button {
+    background-color: #c6610F;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+    margin-right: 20px;
+    cursor: pointer;
 }
