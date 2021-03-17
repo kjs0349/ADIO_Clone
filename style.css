@@ -14,7 +14,7 @@ header {
     background-size: 100%;  
 }
 .inner {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
 }
 header nav {
@@ -54,4 +54,43 @@ header nav .submenu li .pick {
     background-color: #c6610F;
     border-radius: 10px;
     transition: .3s;
+}
+.header-contant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+}
+.header-contant .contants {
+    color: #fff;
+    width: 50%;
+}
+.header-contant .contants .title {
+    font-size: 70px;
+    font-weight: 700;
+    margin: 50px 0 30px;
+}
+.header-contant .contants .button {
+    display: flex;
+    margin: 30px 0;
+}
+.header-contant .contants .button .btn {
+    background-color: #fff;
+    color: #000;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.header-contant .contants .button .btn-color {
+    background-color: #c6610F;
+    color: #fff;
+}
+.header-contant img{
+    width: 550px;
+    height: 350px;
 }
