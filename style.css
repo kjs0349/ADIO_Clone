@@ -150,3 +150,32 @@ header nav .submenu li .pick {
     margin-right: 20px;
     cursor: pointer;
 }
+.section2-contant .title {
+    font-size: 35px;
+    font-weight: 700;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.section2-contant .title span {
+    color: #c6610F;
+}
+.section2-contant .contant {
+    display: flex;
+    margin: 20px 0;;
+}
+.section2-contant .contant .contant-img {
+    display: block;
+    width: 200px;
+    margin-right: 30px;
+}
+.section2-contant .contant .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section2-contant .contant .text .contant-title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
