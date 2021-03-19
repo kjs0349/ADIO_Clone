@@ -120,6 +120,8 @@ header nav .submenu li .pick {
     display: flex;
     flex-direction: column;
     height: 351px;
+    align-items: flex-end;
+    justify-content: space-around;
 }
 .section1-contant .contants .title {
     border-bottom: 1px solid #000;
@@ -134,6 +136,7 @@ header nav .submenu li .pick {
 .section1-contant .contants .contant {
     margin: 20px 20px 20px 0;
     padding-top: 30px;
+    text-align: right;
 }
 .section1-contant .contants .button {
     background-color: #c6610F;
